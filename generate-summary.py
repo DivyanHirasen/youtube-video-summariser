@@ -11,7 +11,9 @@ load_dotenv()
 SUMMARISED_HISTORY_FILE = "summarise-history.json"
 TRANSCRIPTION_DIR = "transcriptions"
 OPENROUTER_YOUTUBE_VIDEO_SUMMARISER = os.getenv("OPENROUTER_YOUTUBE_VIDEO_SUMMARISER")
-MODEL_NAME = "mistralai/mistral-small-3.2-24b-instruct:free"
+# MODEL_NAME = "mistralai/mistral-small-3.2-24b-instruct:free" # Pretty good
+# MODEL_NAME = "minimax/minimax-m1:extended" # Kinda slow
+MODEL_NAME = "meta-llama/llama-3.2-1b-instruct:free"  # Kinda slow
 PROMPT_FILE_PATH = "prompts/prompt_1.txt"
 TAGS_PROMPT_FILE_PATH = "prompts/prompt_ticker_tag.txt"
 
@@ -33,22 +35,22 @@ def submit_prompt(prompt):
 
     return completion.choices[0].message.content
 
+
 def strip_intro(summary_text):
     lines = summary_text.splitlines()
     for i, line in enumerate(lines):
-        if line.strip() == '---':
-            return "\n".join(lines[i+1:])  # Return everything after the first '---'
+        if line.strip() == "---":
+            return "\n".join(lines[i + 1 :])  # Return everything after the first '---'
     return summary_text  # Return original if no '---' found
-
 
 
 def clean_and_save_summary(raw_text: str, output_file: str):
     try:
         # Step 1: Decode unicode-escaped sequences
-        decoded = raw_text.encode('utf-8').decode('unicode_escape')
+        decoded = raw_text.encode("utf-8").decode("unicode_escape")
 
         # Step 2: Fix emojis and accented characters
-        clean_text = codecs.decode(decoded.encode('latin1'), 'utf-8')
+        clean_text = codecs.decode(decoded.encode("latin1"), "utf-8")
 
         clean_text = strip_intro(clean_text)
 
@@ -79,10 +81,12 @@ def update_summary_status(history_data, video_id, value=True):
             video["summarised"] = value
             break  # assuming video IDs are unique
 
+
 def update_tags(history_data, video_id, tags):
     for video in history_data:
         if video.get("video_id") == video_id:
             video["ticker_tags"] = tags
+
 
 def main():
     history_file_data = utils.read_history_file(SUMMARISED_HISTORY_FILE)
@@ -108,7 +112,9 @@ def main():
         clean_and_save_summary(prompt_response, output_summary_file_path)
 
         # Get Tags
-        build_tags_prompt = create_prompt(TAGS_PROMPT_FILE_PATH, output_summary_file_path)
+        build_tags_prompt = create_prompt(
+            TAGS_PROMPT_FILE_PATH, output_summary_file_path
+        )
         tags_prompt_response = submit_prompt(build_tags_prompt)
         tags_list = [tag.strip() for tag in tags_prompt_response.split(",")]
 

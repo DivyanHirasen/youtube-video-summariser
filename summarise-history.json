@@ -6,17 +6,10 @@
         "published_at": "2025-06-28T02:02:59Z",
         "transcribed": false,
         "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/gIEUH5PMrIA",
-        "summarised": true,
+        "summarised": false,
         "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/gIEUH5PMrIA",
         "youtube_link": "https://www.youtube.com/watch?v=gIEUH5PMrIA",
-        "ticker_tags": [
-            "GOOGL",
-            "NVDA",
-            "AVGO",
-            "MSFT",
-            "AAPL",
-            "TSLA"
-        ],
+        "ticker_tags": [],
         "posted_to_discord": false
     },
     {
