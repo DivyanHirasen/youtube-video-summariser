@@ -51,7 +51,10 @@ def main():
 
     print(f"Found {len(unsummarised_videos)} which need to be summarised and saved.")
 
-    summary = create_and_submit_prompt()
+    for video in unsummarised_videos:
+        raw_trancription_dir = 
+
+    #summary = create_and_submit_prompt()
 
     print(summary)
 
