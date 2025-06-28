@@ -13,27 +13,31 @@ OPENROUTER_YOUTUBE_VIDEO_SUMMARISER = os.getenv("OPENROUTER_YOUTUBE_VIDEO_SUMMAR
 MODEL_NAME = "mistralai/mistral-small-3.2-24b-instruct:free"
 PROMPT_FILE_PATH = "prompts/prompt_1.txt"
 
+
 def create_and_submit_prompt(prompt):
     client = OpenAI(
-    base_url="https://openrouter.ai/api/v1",
-    api_key=OPENROUTER_YOUTUBE_VIDEO_SUMMARISER,
+        base_url="https://openrouter.ai/api/v1",
+        api_key=OPENROUTER_YOUTUBE_VIDEO_SUMMARISER,
     )
 
     completion = client.chat.completions.create(
-    extra_headers={
-        "HTTP-Referer": "<YOUR_SITE_URL>", # Optional. Site URL for rankings on openrouter.ai.
-        "X-Title": "<YOUR_SITE_NAME>", # Optional. Site title for rankings on openrouter.ai.
-    },
-    model=MODEL_NAME,
-    messages=[
-        {
-        "role": "user",
-        "content": prompt
-        }
-    ]
+        extra_headers={
+            "HTTP-Referer": "<YOUR_SITE_URL>",  # Optional. Site URL for rankings on openrouter.ai.
+            "X-Title": "<YOUR_SITE_NAME>",  # Optional. Site title for rankings on openrouter.ai.
+        },
+        model=MODEL_NAME,
+        messages=[{"role": "user", "content": prompt}],
     )
 
     return completion.choices[0].message.content
+
+
+def get_clean_text(raw_response):
+    # Decode escaped characters
+    clean_text = bytes(raw_response, "utf-8").decode("unicode_escape")
+
+    return clean_text
+
 
 def create_prompt(prompt_file_path, data_file_path):
     with open(prompt_file_path, "r") as f:
@@ -46,6 +50,7 @@ def create_prompt(prompt_file_path, data_file_path):
     final_prompt = f"{prompt_template.strip()}\n\n{data_text.strip()}"
     return final_prompt
 
+
 def update_summary_status(history_data, video_id, value=True):
     for video in history_data:
         if video.get("video_id") == video_id:
@@ -56,7 +61,9 @@ def update_summary_status(history_data, video_id, value=True):
 def main():
     history_file_data = utils.read_history_file(SUMMARISED_HISTORY_FILE)
 
-    unsummarised_videos = [video for video in history_file_data if not video.get("summarised", False)]
+    unsummarised_videos = [
+        video for video in history_file_data if not video.get("summarised", False)
+    ]
 
     print(f"Found {len(unsummarised_videos)} which need to be summarised and saved.")
 
@@ -66,11 +73,14 @@ def main():
         full_prompt = create_prompt(PROMPT_FILE_PATH, data_file_path)
 
         prompt_response = create_and_submit_prompt(full_prompt)
+        clean_text = get_clean_text(prompt_response)
 
-        output_summary_file_path = f"{video["summarised_dir"]}/summary_{video["video_id"]}.txt"
+        output_summary_file_path = (
+            f"{video["summarised_dir"]}/summary_{video["video_id"]}.txt"
+        )
 
         with open(output_summary_file_path, "w") as f:
-            json.dump(prompt_response, f, indent=4)
+            json.dump(clean_text, f, indent=4)
 
         update_summary_status(history_file_data, video["video_id"])
 

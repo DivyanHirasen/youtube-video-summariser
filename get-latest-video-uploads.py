@@ -1,4 +1,3 @@
-
 import os
 import json
 import utils
@@ -8,12 +7,13 @@ from dotenv import load_dotenv
 # Load the .env file from current directory
 load_dotenv()
 
-#print(os.getenv("OPENROUTER_YOUTUBE_VIDEO_SUMMARISER"))
+# print(os.getenv("OPENROUTER_YOUTUBE_VIDEO_SUMMARISER"))
 
 SUMMARISED_HISTORY_FILE = "summarise-history.json"
-CHANNEL_ID = "UC5cEHfCr6WOE1R1zcohd1IA" # Jose Najarro Stocks
+CHANNEL_ID = "UC5cEHfCr6WOE1R1zcohd1IA"  # Jose Najarro Stocks
 MAX_RESULTS = 5  # Check last 5 videos to avoid missing uploads and avoid pulling too much information
 YT_API = os.getenv("YOUTUBE_DATA_API_V3")
+
 
 def get_latest_videos(CHANNEL_ID):
     url = (
@@ -30,20 +30,16 @@ def get_latest_videos(CHANNEL_ID):
             video_id = item["id"]["videoId"]
             published_at = item["snippet"]["publishedAt"]
             title = item["snippet"]["title"]
-            videos.append({
-                "video_id": video_id,
-                "title": title,
-                "published_at": published_at
-            })
+            videos.append(
+                {"video_id": video_id, "title": title, "published_at": published_at}
+            )
     return videos
-
 
 
 def main():
     # Get all existing video ids
     existing_data = utils.read_history_file(SUMMARISED_HISTORY_FILE)
     existing_ids = {video["video_id"] for video in existing_data}
-
 
     # Get new videos from channel, which isn't saved into the output file.
     latest_videos = get_latest_videos(CHANNEL_ID)
@@ -70,16 +66,15 @@ def main():
             "transcription_dir": f"transcriptions/{CHANNEL_ID}/{video["video_id"]}",
             "summarised": False,
             "summarised_dir": f"transcriptions/{CHANNEL_ID}/{video["video_id"]}",
-            "posted_to_discord": False
+            "posted_to_discord": False,
         }
-        
+
         existing_data.append(video_entry)
 
         # Save to JSON file
         with open(SUMMARISED_HISTORY_FILE, "w") as f:
             json.dump(existing_data, f, indent=4)
 
-    
 
 if __name__ == "__main__":
     main()
