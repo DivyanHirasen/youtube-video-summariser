@@ -1,6 +1,7 @@
 
 import os
 import json
+import utils
 import requests
 from dotenv import load_dotenv
 
@@ -13,15 +14,6 @@ SUMMARISED_HISTORY_FILE = "summarise-history.json"
 CHANNEL_ID = "UC5cEHfCr6WOE1R1zcohd1IA" # Jose Najarro Stocks
 MAX_RESULTS = 5  # Check last 5 videos to avoid missing uploads and avoid pulling too much information
 YT_API = os.getenv("YOUTUBE_DATA_API_V3")
-
-def read_history_file():
-    if os.path.exists(SUMMARISED_HISTORY_FILE):
-        with open(SUMMARISED_HISTORY_FILE, "r") as f:
-            existing_data = json.load(f)
-    else:
-        existing_data = []
-
-    return existing_data
 
 def get_latest_videos(CHANNEL_ID):
     url = (
@@ -49,7 +41,7 @@ def get_latest_videos(CHANNEL_ID):
 
 def main():
     # Get all existing video ids
-    existing_data = read_history_file()
+    existing_data = utils.read_history_file(SUMMARISED_HISTORY_FILE)
     existing_ids = {video["video_id"] for video in existing_data}
 
 
@@ -60,6 +52,7 @@ def main():
     for video in new_videos:
         print("***********NEW VIDEO FOUND***********")
         print(f"video_id: {video["video_id"]}")
+        print(f"channel_id: {CHANNEL_ID}")
         print(f"title: {video["title"]}")
         print(f"published_at: {video["published_at"]}")
         print(f"transcribed: {False}")
@@ -68,6 +61,7 @@ def main():
 
         video_entry = {
             "video_id": video["video_id"],
+            "channel_id": CHANNEL_ID,
             "title": video["title"],
             "published_at": video["published_at"],
             "transcribed": False,
