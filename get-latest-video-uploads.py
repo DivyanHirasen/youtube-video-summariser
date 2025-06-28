@@ -56,7 +56,9 @@ def main():
         print(f"title: {video["title"]}")
         print(f"published_at: {video["published_at"]}")
         print(f"transcribed: {False}")
+        print(f"transcription_dir: transcriptions/{CHANNEL_ID}/{video["video_id"]}")
         print(f"summarised: {False}")
+        print(f"summarised_dir: transcriptions/{CHANNEL_ID}/{video["video_id"]}")
         print(f"posted_to_discord: {False}")
 
         video_entry = {
@@ -65,7 +67,9 @@ def main():
             "title": video["title"],
             "published_at": video["published_at"],
             "transcribed": False,
+            "transcription_dir": f"transcriptions/{CHANNEL_ID}/{video["video_id"]}",
             "summarised": False,
+            "summarised_dir": f"transcriptions/{CHANNEL_ID}/{video["video_id"]}",
             "posted_to_discord": False
         }
         
