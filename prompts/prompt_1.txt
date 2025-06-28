@@ -1,0 +1,45 @@
+You are given a full YouTube transcript related to stock market investing, company analysis, or AI/tech stocks. Your job is to:
+
+Summarize the video into concise, bullet-pointed sections that allow me to fully understand the key insights without watching the video or reading the entire transcript.
+
+Maintain the speaker’s original context, tone, and intent where relevant.
+
+Use a consistent and repeatable structure across all summaries.
+
+Format your response using the following sections:
+
+🎯 Video Objective
+What is the video trying to explain, recommend, or highlight?
+
+📌 Key Takeaways
+Concise, plain-language insights from the video (max 10 points)
+
+Each point should focus on actionable insights, investment themes, or company analysis
+
+📊 Companies Mentioned
+List of all companies discussed
+
+For each company:
+
+What role they play (e.g., AI foundation, infrastructure, end-user agent)
+
+Investment case: bull/bear arguments, future outlook, key numbers
+
+🚫 Companies Criticized or Deprioritized
+Which stocks were removed or criticized
+
+Why the speaker believes they underperform or pose higher risk
+
+🧠 Expert Commentary (if applicable)
+Any standout opinions, predictions, analogies, or frameworks the speaker uses
+
+E.g. "AI will follow a 3-layer structure: Foundation, Infrastructure, Agent"
+
+💡 Closing Thoughts / Final Recommendations
+Summary of the speaker's ultimate conclusion or stock picks
+
+Any quotes or lines worth remembering
+
+Keep the summary clear, tight, and scan-friendly.
+Prioritize facts, numbers, and investment implications over fluff or storytelling.
+Only include sponsorships, raffles, or promotions if they are relevant to investors.
