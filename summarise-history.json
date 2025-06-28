@@ -6,7 +6,7 @@
         "published_at": "2025-06-28T02:02:59Z",
         "transcribed": true,
         "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/gIEUH5PMrIA",
-        "summarised": false,
+        "summarised": true,
         "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/gIEUH5PMrIA",
         "posted_to_discord": false
     },
@@ -17,7 +17,7 @@
         "published_at": "2025-06-27T03:35:52Z",
         "transcribed": true,
         "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/1zlHO7KqGKQ",
-        "summarised": false,
+        "summarised": true,
         "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/1zlHO7KqGKQ",
         "posted_to_discord": false
     },
@@ -28,7 +28,7 @@
         "published_at": "2025-06-25T21:17:48Z",
         "transcribed": true,
         "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/5BvNeo_HMKg",
-        "summarised": false,
+        "summarised": true,
         "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/5BvNeo_HMKg",
         "posted_to_discord": false
     },
@@ -39,7 +39,7 @@
         "published_at": "2025-06-25T13:53:43Z",
         "transcribed": true,
         "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/DKFqBKs-_kE",
-        "summarised": false,
+        "summarised": true,
         "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/DKFqBKs-_kE",
         "posted_to_discord": false
     },
@@ -50,7 +50,7 @@
         "published_at": "2025-06-25T01:49:07Z",
         "transcribed": true,
         "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/Qf-Lq3AO0b4",
-        "summarised": false,
+        "summarised": true,
         "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/Qf-Lq3AO0b4",
         "posted_to_discord": false
     }
