@@ -55,6 +55,8 @@ def main():
         print(f"transcription_dir: transcriptions/{CHANNEL_ID}/{video["video_id"]}")
         print(f"summarised: {False}")
         print(f"summarised_dir: transcriptions/{CHANNEL_ID}/{video["video_id"]}")
+        print(f"youtube_link: https://www.youtube.com/watch?v={video["video_id"]}")
+        print(f"ticker_tags: []")
         print(f"posted_to_discord: {False}")
 
         video_entry = {
@@ -66,6 +68,8 @@ def main():
             "transcription_dir": f"transcriptions/{CHANNEL_ID}/{video["video_id"]}",
             "summarised": False,
             "summarised_dir": f"transcriptions/{CHANNEL_ID}/{video["video_id"]}",
+            "youtube_link": f"https://www.youtube.com/watch?v={video["video_id"]}",
+            "ticker_tags": [],
             "posted_to_discord": False,
         }
 

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Summaries</title>
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background-color: #f7f9fc;
+        color: #333;
+        padding: 2rem;
+        max-width: 900px;
+        margin: auto;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .summary {
+        background-color: #fff;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      }
+
+      .summary h2 {
+        margin-top: 0;
+      }
+
+      .summary-details {
+        white-space: pre-wrap;
+        display: none;
+        margin-top: 1rem;
+      }
+
+      .toggle-btn {
+        background: #007bff;
+        color: white;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .toggle-btn:hover {
+        background-color: #0056b3;
+      }
+
+      .youtube-btn {
+        background-color: #ff0000; /* YouTube red */
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        font-weight: bold;
+        cursor: pointer;
+        float: right; /* right align */
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+      }
+
+      .youtube-btn:hover {
+        background-color: #cc0000;
+      }
+
+      .summary-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .date-added {
+        margin: 0;
+        font-size: 0.9em;
+        color: #666;
+      }
+
+      .tags-row {
+        margin-top: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .tag {
+        padding: 5px 14px;
+        border-radius: 20px;
+        font-size: 0.9em;
+        font-weight: 600;
+        color: white;
+        user-select: none;
+        cursor: default;
+        transition: background-color 0.3s ease;
+      }
+
+      /* Default color */
+      .tag {
+        background-color: #999999;
+      }
+
+      /* Color key for known symbols */
+      .tag[data-symbol="NVDA"] {
+        background-color: #76b900; /* Nvidia Green */
+      }
+
+      .tag[data-symbol="GOOGL"] {
+        background-color: #4285f4; /* Google Blue */
+      }
+
+      .tag[data-symbol="AMD"] {
+        background-color: #ed1c24; /* AMD Red */
+      }
+
+      .tag[data-symbol="MSFT"] {
+        background-color: #737373; /* Microsoft Gray */
+      }
+
+      .tag[data-symbol="TSLA"] {
+        background-color: #cc0000; /* Tesla Red */
+      }
+
+      .tag[data-symbol="AAPL"] {
+        background-color: #999999; /* Apple Gray (default) */
+      }
+
+      /* Optional: Hover effect to slightly lighten color */
+      .tag:hover {
+        filter: brightness(110%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>📺 Div's Stock News Summaries</h1>
+
+    <div class="summary">
+      <div class="summary-header">
+        <h2>Nvidia Summary</h2>
+        <p class="date-added">
+          Added: <span id="date-added-1">2025-06-28</span>
+        </p>
+      </div>
+
+      <!-- Summary toggle button -->
+      <button
+        class="toggle-btn"
+        onclick="loadSummary(this, 'transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/1zlHO7KqGKQ/summary_1zlHO7KqGKQ.txt')"
+      >
+        View Summary
+      </button>
+
+      <!-- Link to original YouTube video -->
+      <button
+        class="youtube-btn"
+        onclick="window.open('https://www.youtube.com/watch?v=1zlHO7KqGKQ', '_blank')"
+      >
+        Watch YouTube Video
+      </button>
+
+      <!-- Container for loaded summary -->
+      <div class="summary-details"></div>
+
+      <!-- Tags container -->
+      <div class="tags-row">
+        <span class="tag" data-symbol="NVDA">NVDA</span>
+        <span class="tag" data-symbol="GOOGL">GOOGL</span>
+        <span class="tag" data-symbol="AMD">AMD</span>
+        <span class="tag" data-symbol="MSFT">MSFT</span>
+        <span class="tag" data-symbol="TSLA">TSLA</span>
+        <span class="tag" data-symbol="AAPL">AAPL</span>
+      </div>
+    </div>
+
+    <!-- Repeat .summary blocks for more videos -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <script>
+      function toggle(btn) {
+        const details = btn.nextElementSibling;
+        const isVisible = details.style.display === "block";
+        details.style.display = isVisible ? "none" : "block";
+        btn.textContent = isVisible ? "View Summary" : "Hide Summary";
+      }
+
+      function loadSummary(btn, filePath) {
+        const container = btn.nextElementSibling;
+        if (container.innerHTML.trim()) {
+          container.style.display =
+            container.style.display === "block" ? "none" : "block";
+          btn.textContent =
+            container.style.display === "block"
+              ? "Hide Summary"
+              : "View Summary";
+          return;
+        }
+
+        fetch(filePath)
+          .then((response) => response.text())
+          .then((text) => {
+            // Use marked.js to convert markdown to HTML
+            container.innerHTML = marked.parse(text);
+            container.style.display = "block";
+            btn.textContent = "Hide Summary";
+          })
+          .catch((error) => {
+            container.textContent = "❌ Error loading summary.";
+            container.style.display = "block";
+          });
+      }
+    </script>
+  </body>
+</html>

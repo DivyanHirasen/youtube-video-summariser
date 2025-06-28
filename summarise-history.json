@@ -4,10 +4,19 @@
         "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
         "title": "OpenAI JUST CHANGED The GAME for GOOGLE NVIDIA STOCK INVESTORS",
         "published_at": "2025-06-28T02:02:59Z",
-        "transcribed": true,
+        "transcribed": false,
         "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/gIEUH5PMrIA",
         "summarised": true,
         "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/gIEUH5PMrIA",
+        "youtube_link": "https://www.youtube.com/watch?v=gIEUH5PMrIA",
+        "ticker_tags": [
+            "GOOGL",
+            "NVDA",
+            "AVGO",
+            "MSFT",
+            "AAPL",
+            "TSLA"
+        ],
         "posted_to_discord": false
     },
     {
@@ -15,10 +24,12 @@
         "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
         "title": "AMD and NVIDIA STOCK INVESTORS GOT AMAZING NEWS FROM MICRON",
         "published_at": "2025-06-27T03:35:52Z",
-        "transcribed": true,
+        "transcribed": false,
         "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/1zlHO7KqGKQ",
-        "summarised": true,
+        "summarised": false,
         "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/1zlHO7KqGKQ",
+        "youtube_link": "https://www.youtube.com/watch?v=1zlHO7KqGKQ",
+        "ticker_tags": [],
         "posted_to_discord": false
     },
     {
@@ -26,10 +37,12 @@
         "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
         "title": "NVIDIA Stock SURGES To ATH What You Need To Know NOW",
         "published_at": "2025-06-25T21:17:48Z",
-        "transcribed": true,
+        "transcribed": false,
         "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/5BvNeo_HMKg",
-        "summarised": true,
+        "summarised": false,
         "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/5BvNeo_HMKg",
+        "youtube_link": "https://www.youtube.com/watch?v=5BvNeo_HMKg",
+        "ticker_tags": [],
         "posted_to_discord": false
     },
     {
@@ -37,10 +50,12 @@
         "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
         "title": "MICRON EARNINGS PREVIEW, AMD SOARS &amp; INTEL UPDATES | MARKET OPEN",
         "published_at": "2025-06-25T13:53:43Z",
-        "transcribed": true,
+        "transcribed": false,
         "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/DKFqBKs-_kE",
-        "summarised": true,
+        "summarised": false,
         "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/DKFqBKs-_kE",
+        "youtube_link": "https://www.youtube.com/watch?v=DKFqBKs-_kE",
+        "ticker_tags": [],
         "posted_to_discord": false
     },
     {
@@ -48,10 +63,12 @@
         "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
         "title": "INTEL GETS MASSIVE WIN, MICRON EARNINGS EXPECTATIONS, WOLFSPEED MASSIVE WARNING",
         "published_at": "2025-06-25T01:49:07Z",
-        "transcribed": true,
+        "transcribed": false,
         "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/Qf-Lq3AO0b4",
-        "summarised": true,
+        "summarised": false,
         "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/Qf-Lq3AO0b4",
+        "youtube_link": "https://www.youtube.com/watch?v=Qf-Lq3AO0b4",
+        "ticker_tags": [],
         "posted_to_discord": false
     }
 ]
