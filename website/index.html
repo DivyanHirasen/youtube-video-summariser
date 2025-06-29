@@ -133,56 +133,47 @@
     </style>
   </head>
   <body>
-    <h1>📺 Div's Stock News Summaries</h1>
+    <h1>📺 Divyan's Stock News Summaries</h1>
 
-    <div class="summary">
+    <div
+      class="summary"
+      data-summary-path="transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/uaTFbpd1w-A/summary_uaTFbpd1w-A.txt"
+      data-tags-path="transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/uaTFbpd1w-A/tags.txt"
+    >
       <div class="summary-header">
         <h2>Nvidia Summary</h2>
-        <p class="date-added">
-          Added: <span id="date-added-1">2025-06-28</span>
-        </p>
+        <p class="date-added">Added: <span>2025-06-28</span></p>
       </div>
 
-      <!-- Summary toggle button -->
-      <button
-        class="toggle-btn"
-        onclick="loadSummary(this, 'transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/1zlHO7KqGKQ/summary_1zlHO7KqGKQ.txt')"
-      >
-        View Summary
-      </button>
+      <div class="tags-row"></div>
 
-      <!-- Link to original YouTube video -->
+      <br /><br />
+
+      <button class="toggle-btn">View Summary</button>
+      <div class="summary-details"></div>
+
       <button
         class="youtube-btn"
         onclick="window.open('https://www.youtube.com/watch?v=1zlHO7KqGKQ', '_blank')"
       >
         Watch YouTube Video
       </button>
-
-      <!-- Container for loaded summary -->
-      <div class="summary-details"></div>
-
-      <!-- Tags container -->
-      <div class="tags-row">
-        <span class="tag" data-symbol="NVDA">NVDA</span>
-        <span class="tag" data-symbol="GOOGL">GOOGL</span>
-        <span class="tag" data-symbol="AMD">AMD</span>
-        <span class="tag" data-symbol="MSFT">MSFT</span>
-        <span class="tag" data-symbol="TSLA">TSLA</span>
-        <span class="tag" data-symbol="AAPL">AAPL</span>
-      </div>
     </div>
 
     <!-- Repeat .summary blocks for more videos -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
     <script>
-      function toggle(btn) {
-        const details = btn.nextElementSibling;
-        const isVisible = details.style.display === "block";
-        details.style.display = isVisible ? "none" : "block";
-        btn.textContent = isVisible ? "View Summary" : "Hide Summary";
-      }
+      const TAG_COLORS = {
+        NVDA: "#76b900",
+        GOOGL: "#4285f4",
+        AMD: "#ed1c24",
+        MSFT: "#737373",
+        TSLA: "#cc0000",
+        AAPL: "#999999",
+        META: "#4267B2",
+        OPTN: "#6f42c1",
+      };
 
       function loadSummary(btn, filePath) {
         const container = btn.nextElementSibling;
@@ -199,16 +190,59 @@
         fetch(filePath)
           .then((response) => response.text())
           .then((text) => {
-            // Use marked.js to convert markdown to HTML
             container.innerHTML = marked.parse(text);
             container.style.display = "block";
             btn.textContent = "Hide Summary";
           })
           .catch((error) => {
+            console.error("Failed to load summary:", error);
             container.textContent = "❌ Error loading summary.";
             container.style.display = "block";
           });
       }
+
+      function loadTagsFromText(container, filePath) {
+        fetch(filePath)
+          .then((res) => res.text())
+          .then((text) => {
+            let symbols;
+            try {
+              symbols = JSON.parse(text.trim());
+            } catch (e) {
+              console.error("Tag file is not valid JSON:", text);
+              return;
+            }
+            symbols.forEach((symbol) => {
+              const tag = document.createElement("span");
+              tag.className = "tag";
+              tag.textContent = symbol;
+              tag.style.backgroundColor = TAG_COLORS[symbol] || "#999999";
+              container.appendChild(tag);
+            });
+          })
+          .catch((err) => {
+            console.error("Error loading tags:", err);
+          });
+      }
+
+      function toggle(btn) {
+        const details = btn.nextElementSibling;
+        const isVisible = details.style.display === "block";
+        details.style.display = isVisible ? "none" : "block";
+        btn.textContent = isVisible ? "View Summary" : "Hide Summary";
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".summary").forEach((block) => {
+          const summaryPath = block.dataset.summaryPath;
+          const tagsPath = block.dataset.tagsPath;
+          const toggleBtn = block.querySelector(".toggle-btn");
+          const tagsContainer = block.querySelector(".tags-row");
+
+          toggleBtn.onclick = () => loadSummary(toggleBtn, summaryPath);
+          loadTagsFromText(tagsContainer, tagsPath);
+        });
+      });
     </script>
   </body>
 </html>

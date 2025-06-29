@@ -1,0 +1,79 @@
+
+### 🎯 **Video Objective**
+Analyze the impact of the **OpenAI-Google deal** on **NVIDIA, AMD, and AI chip competition**, debunking misconceptions about AMD’s role in AI inference and Cloud infrastructure.
+
+---
+
+### 📌 **Key Takeaways**
+1. **OpenAI-Google Deal Context**:
+   - OpenAI is using **Google’s TPUv5 (not latest Trillium)** for non-critical workloads (offloading to free up NVIDIA GPUs for high-compute tasks).
+   - **Not a departure from NVIDIA**—just a supply constraint workaround.
+
+2. **NVIDIA Impact**:
+   - **No negative impact**—OpenAI is still reliant on NVIDIA for advanced workloads.
+   - Competition remains, but NVIDIA’s dominance in high-end AI unchanged.
+
+3. **AMD Bull/Bear Case**:
+   - **Bullish**:
+     - Validates demand for **second AI chip provider** (AMD, not just NVIDIA).
+     - OpenAI’s use of AMD’s MI300s could pressure Google to adopt AMD GPUs.
+     - Mi400 is competitive (but not yet widespread).
+   - **Bearish**:
+     - OpenAI chose **Google TPUs (ASICs) over AMD** for simplicity/timing.
+     - ASICs may be preferable for **less intensive tasks** (no need for AMD’s flexibility).
+
+4. **Meta/AMD Exclusivity Myth**:
+   - **Llama 3.1 (405B)** was *briefly* exclusive to AMD’s MI300, but **no longer**.
+   - **Llama 4** uses **both NVIDIA (H100) and AMD**, with NVIDIA leading in benchmarks.
+   - AMD remains strong in **recommendation systems**, but inference dominance is exaggerated.
+
+5. **Future AI Competition**:
+   - **Google’s TPUs** vs. **AMD’s MI-series** vs. **NVIDIA’s GPUs**:
+     - TPUs win on **cost/speed for specific tasks**.
+     - AMD wins on **flexibility/programmability** (if workloads demand it).
+     - NVIDIA still leads in **high-end AI training**.
+
+---
+
+### 📊 **Companies Mentioned**
+| **Company**  | **Role**                     | **Investment Case**                                                                 |
+|--------------|------------------------------|------------------------------------------------------------------------------------|
+| **Google**   | AI infrastructure (TPUs)     | Bullish: OpenAI’s adoption validates TPUs. Bear: Lacks programmability vs. GPUs.   |
+| **OpenAI**   | AI model demand driver       | Expansion fueling chip demand, but still reliant on NVIDIA for core tasks.         |
+| **AMD**      | AI/chip competitor (MI-series)| Bullish: Mi400 competitive; Mi300s gaining traction. Bear: TPUs threaten for simple workloads. |
+| **NVIDIA**   | AI chip leader               | Bullish: Dominance in high-end AI unchanged. Bear: Competing with ASICs/AMD.        |
+| **Meta**     | AI workload partner          | Debunk: *No exclusivity* with AMD (Llama 4 uses NVIDIA too).                      |
+
+---
+
+### 🚫 **Companies Criticized/Deprioritized**
+- **AMD Hype Train**:
+  - **Risk points**:
+    - Overplayed "exclusivity" with Meta (only Llama 3.1, not 4).
+    - Competes with ASICs (TPUs) for non-flexible workloads.
+- **NVIDIA Myths**:
+  - **False narrative**: "Bad for NVIDIA." Deal still prioritizes NVIDIA for core AI tasks.
+
+---
+
+### 🧠 **Expert Commentary**
+- **"AI needs >1 chip player"** – Google’s TPUs show demand for alternatives.
+- **Workload-specific competition**:
+  - **TPUs**: Best for **cost-efficient, simple tasks**.
+  - **AMD**: Best for **flexible, complex workloads**.
+  - **NVIDIA**: King of **high-performance AI**.
+- **Quote**: *"No need to shoot a Booka out of Fly when you can use a Fly Swatter."* (OpenAI minimizes NVIDIA use for non-taxing tasks).
+
+---
+
+### 💡 **Closing Thoughts**
+- **AMD Bull Case**: Long-term, Mi400 could gain share, but **not a NVIDIA killer** yet.
+- **NVIDIA Safe**: Still the default choice for advanced AI.
+- **Google Risks**: TPUs lack software support; reliance on \**custom workloads**\.
+- **Advice**:
+  - **Hedged AI Play**: AMD (inference) + NVIDIA (training) + Google (cost-sensitive tasks).
+  - **Avoid Overhyped AMD Narratives** (e.g., Meta exclusivity dead).
+
+**Final Line**: *"Stay flexible—chip competition isn’t binary. Keep an eye on workloads, not just headlines."*
+
+---
