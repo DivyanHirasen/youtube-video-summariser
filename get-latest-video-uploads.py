@@ -11,7 +11,7 @@ load_dotenv()
 
 SUMMARISED_HISTORY_FILE = "summarise-history.json"
 CHANNEL_ID = "UC5cEHfCr6WOE1R1zcohd1IA"  # Jose Najarro Stocks
-MAX_RESULTS = 5  # Check last 5 videos to avoid missing uploads and avoid pulling too much information
+MAX_RESULTS = 1  # Check last 5 videos to avoid missing uploads and avoid pulling too much information
 YT_API = os.getenv("YOUTUBE_DATA_API_V3")
 
 
