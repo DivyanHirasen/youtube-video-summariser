@@ -131,7 +131,9 @@ def main():
         tags_list = [tag.strip() for tag in tags_prompt_response.split(",")]
 
         # Update tags and summary status to true
-        update_and_save_tags(history_file_data, video["video_id"], tags_list, output_tags_file_path)
+        update_and_save_tags(
+            history_file_data, video["video_id"], tags_list, output_tags_file_path
+        )
         update_summary_status(history_file_data, video["video_id"])
 
     with open(SUMMARISED_HISTORY_FILE, "w", encoding="utf-8") as f:

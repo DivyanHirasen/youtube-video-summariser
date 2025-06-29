@@ -14,7 +14,7 @@ PLACEHOLDER_START = "<!-- START_SUMMARIES -->"
 PLACEHOLDER_END = "<!-- END_SUMMARIES -->"
 
 # Template for one summary div, with placeholders to fill
-DIV_TEMPLATE = '''
+DIV_TEMPLATE = """
 <div
   class="summary"
   data-summary-path="{summary_path}"
@@ -39,13 +39,19 @@ DIV_TEMPLATE = '''
     Watch YouTube Video
   </button>
 </div>
-'''
+"""
+
 
 def get_unique_ids(base_dir):
     """Return sorted list of unique subfolders in base_dir."""
     return sorted(
-        [name for name in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, name))]
+        [
+            name
+            for name in os.listdir(base_dir)
+            if os.path.isdir(os.path.join(base_dir, name))
+        ]
     )
+
 
 def get_video_name_by_id(history_data, video_id):
     for video in history_data:
@@ -53,14 +59,19 @@ def get_video_name_by_id(history_data, video_id):
             return video.get("title")
             break  # assuming video IDs are unique
 
+
 def build_div_for_id(base_dir, unique_id):
     """Construct div HTML for given unique_id."""
-    summary_path = os.path.join(base_dir, unique_id, f"summary_{unique_id}.txt").replace("\\", "/")
-    tags_path = os.path.join(base_dir, unique_id, f"tags_{unique_id}.txt").replace("\\", "/")
+    summary_path = os.path.join(
+        base_dir, unique_id, f"summary_{unique_id}.txt"
+    ).replace("\\", "/")
+    tags_path = os.path.join(base_dir, unique_id, f"tags_{unique_id}.txt").replace(
+        "\\", "/"
+    )
 
     # For demonstration, you can set the title to the unique_id or customize
     history_file_data = utils.read_history_file(SUMMARISED_HISTORY_FILE)
-    
+
     title = f"{get_video_name_by_id(history_file_data, unique_id)}"
 
     # For date added, use current date or fetch file modification date
@@ -79,16 +90,19 @@ def build_div_for_id(base_dir, unique_id):
         tags_path=tags_path,
         title=title,
         date_added=date_added,
-        youtube_link=youtube_link
+        youtube_link=youtube_link,
     )
+
 
 def read_main_html(path):
     with open(path, "r", encoding="utf-8") as f:
         return f.read()
 
+
 def write_main_html(path, content):
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
+
 
 def update_html_with_summaries(html_path, base_dir):
     html_content = read_main_html(html_path)
@@ -107,10 +121,13 @@ def update_html_with_summaries(html_path, base_dir):
     divs_html = "\n".join(build_div_for_id(base_dir, uid) for uid in unique_ids)
 
     # Build new HTML with divs injected
-    new_html = html_content[:start_idx] + "\n" + divs_html + "\n" + html_content[end_idx:]
+    new_html = (
+        html_content[:start_idx] + "\n" + divs_html + "\n" + html_content[end_idx:]
+    )
 
     write_main_html(html_path, new_html)
     print(f"Updated {html_path} with {len(unique_ids)} summaries.")
+
 
 if __name__ == "__main__":
     update_html_with_summaries(MAIN_HTML_PATH, BASE_DIR)
