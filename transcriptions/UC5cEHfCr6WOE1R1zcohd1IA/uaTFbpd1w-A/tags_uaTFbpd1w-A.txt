@@ -1,1 +1,1 @@
-["NVDA", "AMD", "MU", "AAPL", "GOOG", "META"]
+["AMD", "NVDA", "GOOGL", "OPNAI"]

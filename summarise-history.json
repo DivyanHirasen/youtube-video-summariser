@@ -10,12 +10,10 @@
         "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/uaTFbpd1w-A",
         "youtube_link": "https://www.youtube.com/watch?v=uaTFbpd1w-A",
         "ticker_tags": [
-            "NVDA",
             "AMD",
-            "MU",
-            "AAPL",
-            "GOOG",
-            "META"
+            "NVDA",
+            "GOOGL",
+            "OPNAI"
         ],
         "posted_to_discord": false
     },
@@ -33,7 +31,32 @@
             "GOOGL",
             "NVDA",
             "AVGO",
-            "MSFT"
+            "MSFT",
+            "META",
+            "AMZN",
+            "AAPL",
+            "TSLA",
+            "TSM"
+        ],
+        "posted_to_discord": false
+    },
+    {
+        "video_id": "1zlHO7KqGKQ",
+        "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
+        "title": "AMD and NVIDIA STOCK INVESTORS GOT AMAZING NEWS FROM MICRON",
+        "published_at": "2025-06-27T03:35:52Z",
+        "transcribed": true,
+        "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/1zlHO7KqGKQ",
+        "summarised": true,
+        "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/1zlHO7KqGKQ",
+        "youtube_link": "https://www.youtube.com/watch?v=1zlHO7KqGKQ",
+        "ticker_tags": [
+            "MU",
+            "AMD",
+            "NVDA",
+            "AAPL",
+            "QCOM",
+            "STX"
         ],
         "posted_to_discord": false
     }
