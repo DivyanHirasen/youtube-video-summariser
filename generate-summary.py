@@ -82,10 +82,18 @@ def update_summary_status(history_data, video_id, value=True):
             break  # assuming video IDs are unique
 
 
-def update_tags(history_data, video_id, tags):
-    for video in history_data:
-        if video.get("video_id") == video_id:
-            video["ticker_tags"] = tags
+def update_and_save_tags(history_data, video_id, tags, output_tags_file_path):
+    try:
+        for video in history_data:
+            if video.get("video_id") == video_id:
+                video["ticker_tags"] = tags
+
+        with open(output_tags_file_path, "w", encoding="utf-8") as f:
+            f.write(json.dumps(tags))
+
+        print(f"✅ Tags saved to: {output_tags_file_path}")
+    except Exception as e:
+        print(f"❌ Error cleaning text: {e}")
 
 
 def main():
@@ -108,6 +116,10 @@ def main():
             f"{video["summarised_dir"]}/summary_{video["video_id"]}.txt"
         )
 
+        output_tags_file_path = (
+            f"{video["summarised_dir"]}/tags_{video["video_id"]}.txt"
+        )
+
         # Save summary
         clean_and_save_summary(prompt_response, output_summary_file_path)
 
@@ -119,7 +131,7 @@ def main():
         tags_list = [tag.strip() for tag in tags_prompt_response.split(",")]
 
         # Update tags and summary status to true
-        update_tags(history_file_data, video["video_id"], tags_list)
+        update_and_save_tags(history_file_data, video["video_id"], tags_list, output_tags_file_path)
         update_summary_status(history_file_data, video["video_id"])
 
     with open(SUMMARISED_HISTORY_FILE, "w", encoding="utf-8") as f:

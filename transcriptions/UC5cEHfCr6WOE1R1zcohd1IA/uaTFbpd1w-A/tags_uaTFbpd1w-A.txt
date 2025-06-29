@@ -1,0 +1,1 @@
+["NVDA", "AMD", "MU", "AAPL", "GOOG", "META"]

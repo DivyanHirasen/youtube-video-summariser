@@ -12,9 +12,28 @@
         "ticker_tags": [
             "NVDA",
             "AMD",
-            "GOOGL",
-            "OPTN",
+            "MU",
+            "AAPL",
+            "GOOG",
             "META"
+        ],
+        "posted_to_discord": false
+    },
+    {
+        "video_id": "gIEUH5PMrIA",
+        "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
+        "title": "OpenAI JUST CHANGED The GAME for GOOGLE NVIDIA STOCK INVESTORS",
+        "published_at": "2025-06-28T02:02:59Z",
+        "transcribed": true,
+        "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/gIEUH5PMrIA",
+        "summarised": true,
+        "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/gIEUH5PMrIA",
+        "youtube_link": "https://www.youtube.com/watch?v=gIEUH5PMrIA",
+        "ticker_tags": [
+            "GOOGL",
+            "NVDA",
+            "AVGO",
+            "MSFT"
         ],
         "posted_to_discord": false
     }
