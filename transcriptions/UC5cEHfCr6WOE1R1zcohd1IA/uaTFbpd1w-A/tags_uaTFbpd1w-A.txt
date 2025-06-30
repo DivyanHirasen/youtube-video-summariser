@@ -1,1 +1,1 @@
-["AMD", "NVDA", "GOOGL", "OPNAI"]
+["NVDA", "AMD", "AAPL", "B200", "Mi300", "Mi400", "H100", "GB200", "TPU", "LLAMA"]

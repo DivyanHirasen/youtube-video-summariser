@@ -1,5 +1,48 @@
 [
     {
+        "video_id": "F891MwOqskI",
+        "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
+        "title": "OPENAI GOOGLE DEAL CHANGES EVERYTHING FOR NVIDIA | MARKET OPEN",
+        "published_at": "2025-06-30T13:47:41Z",
+        "transcribed": true,
+        "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/F891MwOqskI",
+        "summarised": true,
+        "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/F891MwOqskI",
+        "youtube_link": "https://www.youtube.com/watch?v=F891MwOqskI",
+        "ticker_tags": [
+            "GOOG",
+            "NVDA",
+            "PYPL",
+            "ORCL",
+            "ASML",
+            "TSM",
+            "NFLX",
+            "FC",
+            "FB",
+            "COST",
+            "TWTR",
+            "NEBU"
+        ],
+        "posted_to_discord": false
+    },
+    {
+        "video_id": "UyzeYoM78UQ",
+        "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
+        "title": "WARNING: 3 Massive Lies Told To AMD Stock Investors",
+        "published_at": "2025-06-30T03:13:50Z",
+        "transcribed": true,
+        "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/UyzeYoM78UQ",
+        "summarised": true,
+        "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/UyzeYoM78UQ",
+        "youtube_link": "https://www.youtube.com/watch?v=UyzeYoM78UQ",
+        "ticker_tags": [
+            "AMD",
+            "NVDA",
+            "META"
+        ],
+        "posted_to_discord": false
+    },
+    {
         "video_id": "uaTFbpd1w-A",
         "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
         "title": "OpenAI JUST CHANGED the GAME for AMD STOCK INVESTORS",
@@ -10,53 +53,16 @@
         "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/uaTFbpd1w-A",
         "youtube_link": "https://www.youtube.com/watch?v=uaTFbpd1w-A",
         "ticker_tags": [
+            "NVDA",
             "AMD",
-            "NVDA",
-            "GOOGL",
-            "OPNAI"
-        ],
-        "posted_to_discord": false
-    },
-    {
-        "video_id": "gIEUH5PMrIA",
-        "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
-        "title": "OpenAI JUST CHANGED The GAME for GOOGLE NVIDIA STOCK INVESTORS",
-        "published_at": "2025-06-28T02:02:59Z",
-        "transcribed": true,
-        "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/gIEUH5PMrIA",
-        "summarised": true,
-        "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/gIEUH5PMrIA",
-        "youtube_link": "https://www.youtube.com/watch?v=gIEUH5PMrIA",
-        "ticker_tags": [
-            "GOOGL",
-            "NVDA",
-            "AVGO",
-            "MSFT",
-            "META",
-            "AMZN",
             "AAPL",
-            "TSLA",
-            "TSM"
-        ],
-        "posted_to_discord": false
-    },
-    {
-        "video_id": "1zlHO7KqGKQ",
-        "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
-        "title": "AMD and NVIDIA STOCK INVESTORS GOT AMAZING NEWS FROM MICRON",
-        "published_at": "2025-06-27T03:35:52Z",
-        "transcribed": true,
-        "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/1zlHO7KqGKQ",
-        "summarised": true,
-        "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/1zlHO7KqGKQ",
-        "youtube_link": "https://www.youtube.com/watch?v=1zlHO7KqGKQ",
-        "ticker_tags": [
-            "MU",
-            "AMD",
-            "NVDA",
-            "AAPL",
-            "QCOM",
-            "STX"
+            "B200",
+            "Mi300",
+            "Mi400",
+            "H100",
+            "GB200",
+            "TPU",
+            "LLAMA"
         ],
         "posted_to_discord": false
     }

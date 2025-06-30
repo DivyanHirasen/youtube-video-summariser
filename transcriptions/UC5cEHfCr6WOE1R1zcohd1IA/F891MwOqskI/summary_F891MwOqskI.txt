@@ -1,0 +1,61 @@
+
+### 🎯 **Video Objective**
+- Discuss market sentiment, key stock movers, AI developments (e.g., OpenAI/Google deal), and investment opportunities.
+- Highlight high-growth names (AI, cloud, fintech) and warn against speculative small-cap AI stocks.
+- Share portfolio adjustments (trimming winners, adding to followers like Google/PayPal).
+
+---
+
+### 📌 **Key Takeaways**
+1. **Market Sentiment**: Strong pre-market gains (e.g., Nvidia +4%, Google +1.5%) amid calm ahead of earnings season (ASML, TSM, Netflix in ~2.5 weeks).
+2. **AI-focused Opportunities**:
+   - Google Cloud’s win with OpenAI (despite rivalry) signals expansion and cost competitiveness.
+   - OpenAI’s partial shift to Google TPUs is a *supply constraint workaround*, not a Nvidia defection.
+3. **Critique of Smaller AI Stocks**:
+   - "AI bear" stocks (e.g., Big Bear AI, QuantumCape) are speculative; focus on fundamentals (e.g., Costco’s FCF growth).
+4. **Investment Actions**:
+   - **Trimming**: CoreWeave post 3-4x rally; Oracle (overexposure to AI).
+   - **Adding**: PayPal (undervalued fintech); Google (AI infrastructure leadership).
+5. **Macro Outlook**:
+   - July 9th EU tariff deadline unresolved; two Fed rate cuts still likely in 2024.
+6. **Q2 Earnings Highlights**:
+   - Oracle’s $30B cloud deal start in FY28 boosted shares (+7% premarket).
+   - Nebus (Blackwell Ultra GPU cluster) expands UK data center capacity.
+
+---
+
+### 📊 **Companies Mentioned**
+
+| **Company**          | **Role**                     | **Investment Case**                                                                 |
+|----------------------|-----------------------------|-----------------------------------------------------------------------------------|
+| **Google (Alphabet)** | AI foundation (cloud, TPUs) | Bullish: OpenAI cloud deal validates Google Cloud’s cost structure; Gemini product traction. Bear: Stock lagging, but favorable long-term outperform |
+| **Nvidia**           | AI infrastructure (GPUs)    | Bullish: Supply constraints drive demand across AI workloads. Neutral on OpenAI deal—partial TPU adoption won’t disrupt Nvidia’s dominance. |
+| **PayPal (Venmo)**   | Fintech/peer-to-peer        | Bullish: College athlete revenue-sharing program expands Venmo use. Undervalued vs. ecosystem potential. |
+| **Oracle**           | Cloud/database ERPs        | Bullish: UEPS (cloud + multitenant DB) grows; FBR guidance entity ($30B rev starting FY28). Trimmed for portfolio balance. |
+| **Risk: Small AI Cap Stocks**   | Speculative AI names        | Bear: No revenue, volatile rallies (QuantumCape +180% on hype). Example: Big Bear AI has military contracts but negative FFC (cash burn). |
+
+---
+
+### 🚫 **Companies Criticized or Deprioritized**
+- **Speculative AI Names**: QuantumCape, Big Bear AI dismissed as "2021-style pops" with thin revenue/research.
+- **Palanteer**: Rotating out of indices; volatility encourages waiting for re-entry at $65 (April 2024 level unless earnings justify higher buy).
+
+---
+
+### 🧠 **Expert Commentary**
+- **CEO Rankings**: Updated 2025 list—Jensen Huang (Nvidia, #1), Zuckerberg (#2 for "hatred-driven innovation"), Sundar Pichai (#3 for AI pivot).
+- **AI Workload Insight**: OpenAI’s TPU use = "fly swatter vs. rocket launcher" (less intense tasks offloaded to cheaper Google chips).
+- **AI Framework**: Foundation (Google), Infrastructure (Nvidia/AMD), Agent models—trend is "non-binary" collaboration (e.g., OpenAI-Google deal).
+
+---
+
+### 💡 **Closing Thoughts / Final Recommendations**
+- **Stock Picks**: Google, PayPal; trim CoreWeave/Oracle for portfolio balance.
+- **Quotes**:
+  - "Never bet against Jensen Huang"—on Nvidia’s supply chain advantage.
+  - "Zuckerberg’s hatred for Apple is his fire."
+- **Reminder**: Risk-to-reward now favors mature/high FCF names; AI rallies are nebulous for low-revenue players.
+
+---
+
+**Format Note**: Sponsorships (fiscal.ai) included where relevant to investors (15% off link provided).

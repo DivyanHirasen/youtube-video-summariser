@@ -1,1 +1,0 @@
-["GOOGL", "NVDA", "AVGO", "MSFT", "META", "AMZN", "AAPL", "TSLA", "TSM"]

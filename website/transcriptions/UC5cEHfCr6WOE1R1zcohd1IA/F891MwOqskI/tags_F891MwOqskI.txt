@@ -1,0 +1,1 @@
+["GOOG", "NVDA", "PYPL", "ORCL", "ASML", "TSM", "NFLX", "FC", "FB", "COST", "TWTR", "NEBU"]
