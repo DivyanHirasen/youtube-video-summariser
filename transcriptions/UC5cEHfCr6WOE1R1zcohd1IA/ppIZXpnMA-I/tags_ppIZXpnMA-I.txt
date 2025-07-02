@@ -1,0 +1,1 @@
+["NVDA", "TSLA", "META", "AMD", "GOOGL", "RXRX", "ASML", "PYPL"]

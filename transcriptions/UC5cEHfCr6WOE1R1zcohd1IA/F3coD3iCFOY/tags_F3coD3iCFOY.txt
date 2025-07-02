@@ -1,0 +1,1 @@
+["ORCL", "META", "OAI", "AAPL", "NVDA", "AMD", "GOOGL"]

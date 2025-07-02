@@ -65,5 +65,48 @@
             "LLAMA"
         ],
         "posted_to_discord": false
+    },
+    {
+        "video_id": "ppIZXpnMA-I",
+        "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
+        "title": "MASSIVE AI UPDATES ORACLE GOOGLE META | MARKET OPEN",
+        "published_at": "2025-07-01T11:25:53Z",
+        "transcribed": true,
+        "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/ppIZXpnMA-I",
+        "summarised": true,
+        "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/ppIZXpnMA-I",
+        "youtube_link": "https://www.youtube.com/watch?v=ppIZXpnMA-I",
+        "ticker_tags": [
+            "NVDA",
+            "TSLA",
+            "META",
+            "AMD",
+            "GOOGL",
+            "RXRX",
+            "ASML",
+            "PYPL"
+        ],
+        "posted_to_discord": false
+    },
+    {
+        "video_id": "F3coD3iCFOY",
+        "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
+        "title": "NVIDIA AI STOCK INVESTORS Just Got Amazing News From Oracle, Meta, Apple",
+        "published_at": "2025-06-30T21:19:53Z",
+        "transcribed": true,
+        "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/F3coD3iCFOY",
+        "summarised": true,
+        "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/F3coD3iCFOY",
+        "youtube_link": "https://www.youtube.com/watch?v=F3coD3iCFOY",
+        "ticker_tags": [
+            "ORCL",
+            "META",
+            "OAI",
+            "AAPL",
+            "NVDA",
+            "AMD",
+            "GOOGL"
+        ],
+        "posted_to_discord": false
     }
 ]
