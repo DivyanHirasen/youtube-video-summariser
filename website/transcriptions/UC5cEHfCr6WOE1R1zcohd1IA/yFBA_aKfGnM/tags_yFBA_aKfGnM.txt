@@ -1,0 +1,1 @@
+["AMT", "MU", "ASML", "INTC", "AMD", "ADBE", "CORZ", "NVDA", "MSFT", "AMZN", "TSMC"]

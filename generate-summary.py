@@ -11,7 +11,7 @@ load_dotenv()
 SUMMARISED_HISTORY_FILE = "summarise-history.json"
 TRANSCRIPTION_DIR = "transcriptions"
 OPENROUTER_YOUTUBE_VIDEO_SUMMARISER = os.getenv("OPENROUTER_YOUTUBE_VIDEO_SUMMARISER")
-MODEL_NAME = "mistralai/mistral-small-3.2-24b-instruct:free"  # Pretty good
+MODEL_NAME = "mistralai/mistral-small-3.2-24b-instruct"  # Pretty good
 # MODEL_NAME = "minimax/minimax-m1:extended" # Kinda slow
 # MODEL_NAME = "meta-llama/llama-3.2-1b-instruct:free"  # Kinda slow
 PROMPT_FILE_PATH = "prompts/prompt_1.txt"

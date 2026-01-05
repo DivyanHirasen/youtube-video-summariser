@@ -1,0 +1,58 @@
+
+### 🎯 **Video Objective**
+- Provide a market commentary on AI/semiconductor stocks (e.g., AMT, Micron, Intel, ASML).
+- Analyze Adobe’s (ADBE) bear thesis and potential turnaround in 2026.
+- Share insights from CES (Consumer Electronics Show) and earnings season.
+
+---
+
+### 📌 **Key Takeaways**
+1. **AI/Semiconductor Rally**: Strong gains in AI-related stocks (e.g., Micron +10%, ASML +9%, Intel +7%) due to market optimism for 2026.
+2. **Memory Shortage**: AI chip demand (e.g., Nvidia H200, AMD MI325) may exacerbate HBM3e memory shortages, benefiting Micron.
+3. **Adobe’s Bear Thesis**: ADBE stock down ~24% YTD, ~51% over 5 years, but valuation metrics (P/OCF: 14.28, P/FCF: 14.24) are near decade lows.
+4. **Adobe’s AI Growth**: AI-driven revenue (e.g., Firefly, Creative Cloud Pro) now >33% of total bookings; generative credits up 3x QoQ.
+5. **China AI Chip Market**: AMD’s potential entry into China could boost demand for memory chips.
+6. **CES Hype Warning**: Expect short-term volatility from AI hype; focus on long-term trends.
+7. **Portfolio Advice**: Avoid comparing stocks; celebrate individual wins (e.g., CoreWeave +10%).
+8. **Earnings Focus**: Upcoming earnings from Air Test Systems, TSMC, and others may drive sector moves.
+9. **Adobe’s Bull Case**: Strong free cash flow ($9.8B TTM), debt management, and AI integration could reverse the bear thesis.
+10. **Investor Sentiment**: Adobe’s long-term underperformance may create a buying opportunity if AI adoption accelerates.
+
+---
+
+### 📊 **Companies Mentioned**
+
+| **Company**       | **Role**                          | **Investment Case**                                                                 |
+|-------------------|-----------------------------------|-----------------------------------------------------------------------------------|
+| **Micron (MU)**   | Memory chip leader                | Bull: AI-driven HBM3e demand; stock up 10% on shortage optimism. Bear: Cyclical memory market risks. |
+| **ASML (ASML)**   | Lithography equipment              | Bull: Critical for AI chip production; up 9%. Bear: High valuation, geopolitical risks. |
+| **Intel (INTC)**  | Semiconductor giant               | Bull: AI chip investments; up 7%. Bear: Execution risks, competition.             |
+| **AMD (AMD)**     | AI chips, China market entry      | Bull: China approval could boost revenue. Bear: Dependency on China demand.       |
+| **Adobe (ADBE)**  | AI-integrated software            | Bull: Cheap valuation (P/OCF: 14.28), AI-driven growth. Bear: 5-year underperformance. |
+| **CoreWeave (CORZ)** | AI data center provider         | Bull: Top performer (+10%); AI infrastructure demand. Bear: High valuation.       |
+| **Nvidia (NVDA)** | AI chips (H200)                   | Bull: HBM3e demand. Bear: Already priced for perfection.                          |
+
+---
+
+### 🚫 **Companies Criticized or Deprioritized**
+- **Adobe (ADBE)**: Criticized for 5-year underperformance but analyzed for potential turnaround.
+- **Microsoft (MSFT), Amazon (AMZN)**: Down ~2% on the day; no deep analysis provided.
+
+---
+
+### 🧠 **Expert Commentary**
+- **AI Chip Demand**: "The H200 uses HBM3e, and if China reopens to AMD, memory shortages will worsen."
+- **Adobe’s AI Integration**: "They’re not being eaten by AI—they’re building a toolbox with 25+ partner models."
+- **Portfolio Advice**: "Comparison is the thief of joy. Celebrate your wins, not others’."
+
+---
+
+### 💡 **Closing Thoughts / Final Recommendations**
+- **Adobe Watchlist**: Valuation is attractive, but wait for Q1 earnings to confirm AI-driven growth.
+- **AI/Semiconductor Momentum**: CoreWeave (+10%), Air Test Systems (+9.7%) were top performers.
+- **CES Caution**: Short-term hype may cause volatility; focus on fundamentals.
+- **Quote to Remember**: *"The biggest fear for Adobe is that AI will destroy it—but the data shows AI is driving its growth."*
+
+---
+
+This summary captures the video’s core insights while maintaining a scan-friendly format.

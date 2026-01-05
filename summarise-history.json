@@ -508,5 +508,64 @@
             "NVDA"
         ],
         "posted_to_discord": false
+    },
+    {
+        "video_id": "9NHaO21QQlU",
+        "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
+        "title": "If You Own AMD Intel Nvidia ... GET READY FOR CES 2026!",
+        "published_at": "2026-01-04T18:00:09Z",
+        "transcribed": true,
+        "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/9NHaO21QQlU",
+        "summarised": true,
+        "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/9NHaO21QQlU",
+        "youtube_link": "https://www.youtube.com/watch?v=9NHaO21QQlU",
+        "ticker_tags": [
+            "NVDA",
+            "AMD",
+            "INTC",
+            "TSM"
+        ],
+        "posted_to_discord": false
+    },
+    {
+        "video_id": "K5poQiu88gQ",
+        "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
+        "title": "AMD Stock Investors GET READY FOR A CRAZY CES WEEK!",
+        "published_at": "2026-01-04T03:15:06Z",
+        "transcribed": true,
+        "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/K5poQiu88gQ",
+        "summarised": true,
+        "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/K5poQiu88gQ",
+        "youtube_link": "https://www.youtube.com/watch?v=K5poQiu88gQ",
+        "ticker_tags": [
+            "AMD",
+            "NVDA"
+        ],
+        "posted_to_discord": false
+    },
+    {
+        "video_id": "yFBA_aKfGnM",
+        "channel_id": "UC5cEHfCr6WOE1R1zcohd1IA",
+        "title": "AI Stocks Start 2026 With A MASSIVE RALLY!",
+        "published_at": "2026-01-02T23:09:16Z",
+        "transcribed": true,
+        "transcription_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/yFBA_aKfGnM",
+        "summarised": true,
+        "summarised_dir": "transcriptions/UC5cEHfCr6WOE1R1zcohd1IA/yFBA_aKfGnM",
+        "youtube_link": "https://www.youtube.com/watch?v=yFBA_aKfGnM",
+        "ticker_tags": [
+            "AMT",
+            "MU",
+            "ASML",
+            "INTC",
+            "AMD",
+            "ADBE",
+            "CORZ",
+            "NVDA",
+            "MSFT",
+            "AMZN",
+            "TSMC"
+        ],
+        "posted_to_discord": false
     }
 ]
