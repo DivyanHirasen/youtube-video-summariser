@@ -1,0 +1,1 @@
+["INTC", "MU", "TSM", "NVDA", "AMD", "ASML", "LRCX", "AVGO", "QCOM"]

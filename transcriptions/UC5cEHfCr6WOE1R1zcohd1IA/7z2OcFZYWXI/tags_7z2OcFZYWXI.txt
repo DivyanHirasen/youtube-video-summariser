@@ -1,0 +1,1 @@
+["MSFT", "META", "LRCX", "QCOM", "APLD", "RAD", "AAPL", "ASML", "MU", "AMD", "NVDA"]

@@ -1,0 +1,1 @@
+["MBLY", "INTC", "TSMC", "VOLKWAGEN", "UBER", "LYFT", "ZEEKR", "POLSTAR", "STMI"]

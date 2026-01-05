@@ -1,0 +1,64 @@
+
+### **🎯 Video Objective**
+- Discuss AI/tech stocks, earnings season updates (TSMC, ASML), and market sentiment.
+- Analyze stock movements, analyst upgrades/downgrades, and investment theses.
+- Highlight potential opportunities (e.g., Nebulus, Oscar Health) and risks (e.g., Micron, Big Bear AI).
+
+---
+
+### **📌 Key Takeaways**
+1. **Nebulus ($NBUS) Upgraded**: Goldman Sachs initiated coverage with a **Buy rating** and **$68 PT** (~46% upside), citing AI/cloud demand, software efficiency, and cheap valuation.
+2. **Oscar Health Criticized**: Downgraded to **Neutral** (PT cut to **$14**), but CEO’s track record (ex-Allstate/Bridgetower) and focus on changing the health insurance industry are bullish long-term.
+3. **Micron ($MU) Bear Thesis**: Downgrades cite **HBM over-supply rumors**, but analyst dismisses concerns, emphasizing HBM innovation and Micron’s innovation in AI.
+4. **Big Bear AI ($BBAI) Risky**: Lacks growth (CAGR **9.1%**), low margins (**21%**), and is **overhyped as “next Palantir.”**
+5. **SoundHound ($SOUN) Downgraded**: To **Neutral** (PT **$12**) due to execution risks and profitability challenges post-Amelia acquisition.
+6. **digitalocean ($DO) Compared to Oracle**: Modest growth (**15.5%** estimates) but trades at **10x earnings**, making it a potential AI play for SMEs.
+7. **Rocket Lab ($RKLB) Bullish**: Key for **Neutron launch timing** and DoD contracts; still a **long-term growth bet** (up **500%** for the speaker).
+8. **Uber ($UBER) Upgraded**: PT raised to **$109** (from $100) due to pricing power, but autonomous vehicle (AV) competition (Waymo) remains a risk.
+9. **Portfolio Strategy**: Concentration matters more than # of stocks; **top holdings drive performance** (e.g., Nvidia).
+10. **Market Sentiment**: Pessimism over **30% tariffs on Europe**, **10-year yield >4.4%**, and pre-market red in U.S. stocks.
+
+---
+
+### **📊 Companies Mentioned**
+
+| **Company**       | **Role**                     | **Investment Case**                                                                                   |
+|-------------------|------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Nebulus ($NBUS)** | AI cloud infrastructure       | **Bull**: Full-stack efficiency, $10B+ TAM, 46% PT upside. **Bear**: Upside already priced in.          |
+| **Oscar Health ($OSCAR)** | Health insurer (AI-driven)    | **Bull**: Experienced CEO, industry disruptor. **Bear**: Valuation uncertainty, regulatory risks.        |
+| **Micron ($MU)**   | Memory & storage chips        | **Bull**: HBM AI demand, U.S. manufacturing resilience. **Bear**: Cyclicality, HBM commodity risks.   |
+| **Big Bear AI ($BBTi)** | AI defense software        | **Bear**: 9% growth, high multiples, backlog-to-revenue risks.                                      |
+| **SoundHound ($SOUN)** | Voice AI                   | **Bull**: Underlying potential. **Bear**: Execution delays, dilution risks.                              |
+| **digitalocean ($DO)** | Cloud for SMEs             | **Bull**: AI adoption in SMEs, cheap valuation. **Bear**: Lack of growth acceleration.                     |
+| **Rocket Lab ($RKLB)** | Space launches             | **Bull**: Neutron timing, DoD contracts. **Bear**: Delays could hurt sentiment.                           |
+| **Uber ($UBER)**   | Ride-hailing & AVs          | **Bull**: Pricing power, AV partnerships. **Bear**: Waymo competition, regulatory hurdles.              |
+| **Corcoreef ($CORE)** | AI infrastructure        | **Bull**: Cheaper than Neblus. **Bear**: Competition from Neblus, valuation stretched.                   |
+
+---
+
+### **🚫 Companies Criticized or Deprioritized**
+1. **Big Bear AI ($BBTi)**: Overhyped (9% growth, 10x sales), lacks near-term revenue catalysts.
+2. **SoundHound ($SOUN)**: Against risk of execution delays (Amelia acquisition) and multiple compression.
+3. **digitalocean ($DO)**: Flat growth ($14B market cap, 13% revenue growth).
+
+---
+
+### **🧠 Expert Commentary**
+- **Neblus Model**: “Full-stack efficiency and scalable execution differentiate.”
+- **Micron Risks**: “Innovation in HBM is key; slipping up in tech could hurt.”
+- **Uber AVs**: “If Waymo launches in Miami, it’s a negative for Uber’s multiple, but partnership dynamics may mitigate.”
+- **Portfolio Philosophy**: “Not about # of stocks, but concentration in high-conviction picks.”
+
+---
+
+### **💡 Closing Thoughts / Final Recommendations**
+- **Top Picks**: Neblus, Oscar (long-term hold), Micron (if HBM thesis holds), Rocket Lab (space growth).
+- **Avoid**: Big Bear AI, SoundHound at current multiples.
+- **Monitor**: TSMC/ASML earnings (catalysts for chip sector).
+- **Quotes**:
+  - *“Invest & then investigate” (Active stock-building strategy).*
+  - *“Multi-bagger potential in Neblus, regardless of entry cost.”*
+  - *“Over-supply rumors miss Micron’s HBM differentiation.”*
+
+---
+**Summary**: Focus on **AI infrastructure plays (Neblus, Coreweave)** and **industry disrupters (Oscar)**, while avoiding speculative names (Big Bear AI). Macroeconomic risks (tariffs, yields) are which should be monitored.

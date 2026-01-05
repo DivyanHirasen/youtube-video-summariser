@@ -1,0 +1,1 @@
+["NVDA", "AMD", "SMCI", "CORZ", "APLD", "IRNT", "HUT", "GOOGL", "META", "AAPL", "SOFI", "PYPL", "RTO", "SOUN", "SNKI"]

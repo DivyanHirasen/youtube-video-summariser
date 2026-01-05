@@ -1,0 +1,69 @@
+
+### 🎯 **Video Objective**
+To analyze recent earnings reports from key tech/companies (Google, Intel, SK Hynix, etc.), assess their strategic implications for AI/tech investments, and discuss broader trends in semiconductors, AI infrastructure, and cloud computing.
+
+---
+
+### 📌 **Key Takeaways**
+1. **Google’s Earnings (Strong AI/Promotion Signal)**
+   - Beat estimates with **32% Google Cloud growth** (vs. 27% expected) and **20.7% margins** (up from 17.2% QoQ).
+   - Raised **capex by $10B** for 2025, with 2026 forecasting further growth—the "AI Agentic era."
+   - **Bullish take**: Cloud demand is accelerating, and margins are expanding faster than expected.
+
+2. **Intel’s Earnings (Mixed with Structural Progress)**
+   - **Revenue beat ($12.9B)**, but **gross margins crashed (~27.5%, down 9% YoY)** due to **$1B+ writedowns** on excess tools (not 18A-related per early speculation).
+   - **AI/Datacenter margin improved (~16.1%)** and Nvidia selected Intel’s **Xeon Bold** for AI servers.
+   - **Worrisome**: Delayed Ohio foundry expansion and 25K team cuts (down to 75K employees by year-end).
+   - **Bear flag**: Offloading mature nodes (Poland/Germany) but lack of clarity on advanced nodes (14A).
+
+3. **SK Hynix (HBM Demand Still Strong)**
+   - Reaffirmed **no supply pressure in HBM memory** (critical for AI), increasing capex further.
+   - **Pricing power remains** even with Samsung/supply competitors, as demand outweighs supply.
+
+4. **Broad AI/Tech Themes**
+   - **PayPal’s PayPal World**: Global interoperability for digital wallets (PayPal/Venmo/10xP/NPCI), a big fintech win.
+   - **Applied Digital (AI Hosting)**: Up 2.5% on Google’s capex/new partnership buzz.
+   - **AMD (5.2% pop)**: Gained on anticipation of Intel’s weak earnings and strong cloud demand.
+
+5. **Market Reactions**
+   - **Google +1.3%** (earlier higher), **Intel +5% after-hours**, **AMD +2.2%**, **IBM -4.6%**.
+
+---
+
+### 📊 **Companies Mentioned**
+
+| **Company**       | **Role**                          | **Investment Case**                                                                 |
+|------------------|----------------------------------|-----------------------------------------------------------------------------------|
+| **Google**        | AI/Cloud leader                   | - **32% cloud growth**, **20.7% margins**, **$10B capex raise**. Slowdown unlikely in AI era. |
+| **Intel**        | CPUs/Foundry ineFFICIENCY          | - **Revenue beat** but **margins hurt by $1B writedowns**. AI/memory focus allows some solace. **Long-term sub-100K headcount realistic.** |
+| **SK Hynix**     | HBM memory leader                 | - **No supply pressure**, **increasing capex**. Demand outstripping supply through 2026.             |
+| **AMD**          | CPU/GPU competitor                | - **Cloud demand tailwinds**, **5.2% pop on Intel’s struggles**. Dogecoin transaction indicators futile. |
+| **PayPal**       | FinTech payments                  | - **PayPal World partnership with Wix**. Global wallet interoperability could boost usage.         |
+| **Micron**       | Memory (DRAM)                     | - **1.7% rise on SK Hynix optimism**. Risk/reward less clear than Google.                     |
+
+---
+
+### 🚫 **Companies Criticized/Deprioritized**
+1. **Oscar Health**
+   -UGHLY_** stock +10% post-earnings, then -10% next day.** Guidance stable but **losses higher than expected**. Strength: small-cap with multi-bagger upside if guidance holds.
+
+2. **Tesla**
+   - **Down 7.7%** post-earnings. Disappointing (but expected) report, mixed NHTSA headlines, and Cartor security issues.
+
+---
+
+### 🧠 **Expert Commentary**
+- **"AI will drive BADC longevity"** (Memory/Infrastructure play).
+- **"Intel’s 18A node is a tech validation, not a revenue locus."**
+- **"Google’s margins are near-triple digits QoQ—unsustainable, but shows scalability."**
+
+---
+
+### 💡 **Closing Thoughts**
+- **Top Pick**: **Google** (AI capex, cloud growth, 25x P/E upside to 30x).
+- **Secondary Play**: **AMD** (Cloud/crypto tailwinds) or **Applied Digital** (AI hosting beneficiary).
+- **Avoider**: Tesla (valuation unwinding).
+- **Called Out (FOMO Driven)**: OpenDoor (rallied 3x on unproven thesis).
+
+**Quote of Note**:
+*"Intel’s revenue peaked in 2021, but their product strategy failed much earlier—signs as early as 2018-2019. This isn’t a new problem."*

@@ -1,0 +1,102 @@
+
+### 🎯 **Video Objective**
+Analyze the latest earnings reports from major tech and AI-related stocks (Microsoft, Meta, Qualcomm, Qualcomm, Roblox, etc.), discuss macroeconomic trends, and provide investment insights on AI infrastructure, semiconductor equipment, and end-user tech companies.
+
+---
+
+### 📌 **Key Takeaways**
+1. **AI Spending Boom**
+   - Microsoft expects **$30B in Q1 capex** (likely **$100B for 2024**).
+   - Meta forecasts **$70B in FY 2025 capex**, expecting **$100B by FY 2026**.
+   - **Long-term tailwind** for AI remains strong despite short-term valuation concerns.
+
+2. **Roblox’s Turnaround**
+   - Bookings rose **51% YoY**; revenue up **35.5% (beating expectations)**.
+   - Market cap nearing **$100B** despite broader market volatility.
+
+3. **Semiconductor & AI Infrastructure**
+   - **Lam Research** (down 8% post-earnings):
+     - Expanding served market to **mid-30% in 2025** (up from low 30%).
+     - Focus on **bottlenecks like HBM memory and advanced packaging**.
+   - **ASML fears** (monopoly risks) weighing on semiconductor equipment stocks.
+   - **CoreWeave, IRdm, Applied Digital** benefit from AI capex.
+
+4. **Qualcomm’s Diverse Growth**
+   - Non-Apple revenue up **>15% YoY**.
+   - Expanding into **data center, IoT, and AR/VR** (acquired AlphaWave for AI inference).
+   - Trading at a low **PE**, with long-term targets for automotive/IoT ($21B by FY 2029).
+
+5. **Amazon & Apple Skepticism**
+   - **AWS growth slowing** (18.4% YoY) but still a **$111B business**.
+   - **Apple** underperforming on **EPS growth (7.8%)** with revenue growth **5% (PE 29x)**.
+   - AI integration concerns (lacks innovation despite $3.1T market cap).
+
+6. **Reddit & Figma Highlights**
+   - Reddit’s **ad revenue grew 83% YoY** (daily active users up 31%).
+   - Figma IPO: Expected **50-60% pop** due to oversubscription (~40x demand).
+
+7. **Macro Risks**
+   - **Jobless claims slightly higher** (218K vs. 222K forecast).
+   - **Core PCE rose 2.8%** (slightly above estimates).
+
+---
+
+### 📊 **Companies Mentioned**
+
+#### **1. Microsoft**
+- **Role**: AI foundation (Azure, AI servers).
+- **Investment Case**:
+  - **Bull**: Leading AI capex ($30B Q1); vibrant ecosystem.
+  - **Bear**: Valuation stretched short-term.
+
+#### **2. Meta Platforms**
+- **Role**: End-user AI/AR (VR headsets, ads).
+- **Investment Case**:
+  - **Bull**: $70B capex in FY 2025; fnancial discipline improving.
+  - **Bear**: Decelerating ad growth (< Meta’s 24% YoY revenue growth).
+
+#### **3. Lam Research**
+- **Role**: Semiconductor equipment (HBM, advanced packaging).
+- **Investment Case**:
+  - **Bull**: Mid-30% addressed market by 2025; supply chain moat.
+  - **Bear**: China dependency (35% revenue).
+
+#### **4. Qualcomm**
+- **Role**: Chipmaker (mobile, IoT, AR glasses).
+- **Investment Case**:
+  - **Bull**: Acquiring AlphaWave (AI inference); AR/VR exposure.
+  - **Bear**: Handset weakness; long lead times for new products.
+
+#### **5. Applied Digital**
+- **Role**: AI data center operator.
+- **Investment Case**:
+  - **Bull**: Stock up **34%** post-earnings; capitalizing on AI demand.
+  - **Bear**: Speculative YOLO play.
+
+#### **6. Roblox**
+- **Role**: Metaverse platform.
+- **Investment Case**:
+  - **Bull**: Revenue up **21%**; bookings +51%.
+  - **Bear**: Disruptive competition (e.g., Tencent).
+
+---
+
+### 🚫 **Companies Criticized or Deprioritized**
+- **Apple**: Lagging AI innovation; high valuation (PE 29x).
+- **ASML**: Monopoly concerns → regulatory risks.
+- **Micron**: Memory oversupply fears vs. HBM demand.
+
+---
+
+### 🧠 **Expert Commentary**
+- **AI Spending Analogy**: "Capex expectations are like **massive warships**—hard to pivot after launch."
+- **Market Volatility**: "AI won’t go linear; there’ll be corrections (e.g., a ‘DeepSeek moment’)."
+- **Qualcomm’s Edge Case**: "AI won’t be on PCs—it’ll be in AR glasses, robotics, IoT."
+
+---
+
+### 💡 **Closing Thoughts**
+- **ako Raders**: Bullish **Microsoft, Meta, Lam Research** for AI infrastructure.
+- **Picks**: **Qualcomm, CoreWeave, Applied Digital** (pick-up opportunity in Applied).
+- **Avoid**: **Apple** (valuation concern), **Micron** (memory glut).
+- **Quote**: *"We’ve owned Nvidia/AMD below $100—now’s the time to add after downturns."*

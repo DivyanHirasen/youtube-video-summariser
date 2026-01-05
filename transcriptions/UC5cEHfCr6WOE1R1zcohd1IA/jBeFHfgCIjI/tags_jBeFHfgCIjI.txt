@@ -1,0 +1,1 @@
+["NVDA", "AMD", "WBL", "ISR", "ADG", "HIVE", "RIOT", "ORCL", "MIGI", "HUT", "HOOD", "CDNS", "SNPS"]

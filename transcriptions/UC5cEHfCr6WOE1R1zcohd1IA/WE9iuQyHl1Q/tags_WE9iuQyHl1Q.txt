@@ -1,0 +1,1 @@
+["NVDA", "CWAV", "VRT", "DELL", "AMD", "CDNS", "SNPS"]

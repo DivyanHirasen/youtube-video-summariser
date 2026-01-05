@@ -1,0 +1,111 @@
+
+### 🎯 Video Objective
+To discuss company earnings reports (Amazon, Apple, Reddit, Coinbase), stock market movements, and key insights from executive commentary on AI/tech trends.
+
+---
+
+### 📌 Key Takeaways
+1. **Amazon Earnings**:
+   - Beat on revenue ($167B vs. $162B expected) and EPS ($168 vs. $133 expected).
+   - AWS grew 17.5% YoY (annualized run rate: $123B) but AWS margins declined to 32.9% due to SBC expenses and capex investments.
+   - Capex surged to $32B/quarter ($120B+ annual run rate) to meet AI demand, especially for custom AI chips (Tranium 2) and AWS infrastructure.
+   - Retail segment growth (11% YoY) driven by Prime Day, same-day delivery expansions, and perishables pilot.
+
+2. **Apple Earnings**:
+   - Beat on revenue ($94B vs. $89B expected) and EPS ($157 vs. $143 expected).
+   - iPhone sales grew 13% YoY, driven by China growth (4%) and tariff pull-forward demand (1% of growth).
+   - Services revenue up 12% YoY (first growth in 5 quarters).
+
+3. **Reddit Earnings**:
+   - Revenue surged 78% YoY to $500M, driven by ad growth (84% YoY).
+   - Daily active users grew 21% YoY to 110.4M.
+
+4. **Coinbase Earnings**:
+   - Revenue missed ($1.5B vs. $1.6B expected) due to lower trading volumes (-38% QoQ).
+   - Crypto spot volumes down 31% globally.
+
+5. **Market Moves**:
+   - **AWS Constraints**: Supply shortages (power, chips, server yields) are limiting AWS’s ability to meet AI demand.
+   - **AI Agents**: Andy Jassy highlighted AWS’s focus on AI inference (Tranium chips, Agent Core infrastructure) over training compute.
+   - **Tariff Impact**: Amazon notes no material demand impact yet, but post-tariff cost absorption remains uncertain.
+
+6. **Figma IPO**:
+   - Priced at $33, opened at $84, and surged to $122+ on heavy retail demand.
+   - Valued at $60B (vs. Adobe’s $150B), with no earnings but 45% YoY revenue growth.
+
+7. **Sector Speed Struggles**:
+   - **Google**: Down 2.4% due to App Store antitrust loss vs. Epic Games (30% fee ruling upheld).
+   - **Micron**: Down ~5% after Samsung noted HBM3e supply glut and pricing pressure.
+   - **ASML**: Criticized for slowing 2026 growth guidance, impacting semiconductors.
+
+---
+
+### 📊 Companies Mentioned
+#### **Amazon (AMZN)**
+- **Role**: E-commerce leader, cloud/AWS pioneer.
+- **Investment Case**:
+  - **Bullish**: AWS growth (17.5% YoY) and capex increase ($32B/quarter) to meet AI demand.
+  - **Bearish**: AWS margins down (32.9%), tariffs may squeeze retail margins.
+  - **Outlook**: Long-term AWS growth (timeline: "10+ years") and AI agent opportunity.
+
+#### **Apple (AAPL)**
+- **Role**: Consumer tech giant.
+- **Investment Case**:
+  - **Bullish**: iPhone growth (13% YoY) and China rebound (+4% YoY).
+  - **Bearish**: Tariff pull-forward may mask weakness.
+  - **Outlook**: Services (12% YoY growth) as key growth driver.
+
+#### **Reddit (RDDT)**
+- **Role**: Social media platform.
+- **Investment Case**:
+  - **Bullish**: Ad revenue +84% YoY (traffic growth +21% YoY).
+  - **Outlook**: Reddit Answers (6M users) shows product monetization potential.
+
+#### **Coinbase (COIN)**
+- **Role**: Crypto exchange.
+- **Investment Case**:
+  - **Bearish**: Trading volumes -31% QoQ, fees high.
+  - **Outlook**: Tokenized stocks/pricing strategies may revive growth.
+
+#### **Figma (FGM)**
+- **Role**: Design collaboration tool.
+- **Investment Case**:
+  - **Bullish**: Revenue +45% YoY ($821M run rate), high retention.
+  - **Bearish**: Valuation vs. Adobe (no earnings).
+  - **Outlook**: Secondary volatility likely.
+
+#### **Google (GOOGL)**
+- **Role**: Advertising/search/AI tech.
+- **Investment Case**:
+  - **Bullish**: Long-term AI leadership; current losses overpriced.
+  - **Bearish**: App Store antitrust rulings risk margins.
+
+#### **Micron (MU)**
+- **Role**: Semiconductor memory.
+- **Investment Case**:
+  - **Bullish**: AI demand for HBM3e chips.
+  - **Bearish**: Samsung notes supply glut.
+
+---
+
+### 🚫 Companies Criticized or Deprioritized
+1. **ASML (ASML)**: 2026 guidance slowdown, Intel capex cuts.
+2. **Coinbase (COIN)**: Fee structure criticized.
+3. **Tesla (TSLA)**: "Not good earnings," EV pricing pressure.
+
+---
+
+### 🧠 Expert Commentary
+- **AI Trend**: "AI inference (not training) is where the real scale is" — Andy Jassy.
+- **AWS Differentiation**: Custom silicon (Tranium 2) for 30-40% cost efficiency vs. Nvidia GPUs.
+- **Figma Valuation**: "60x sales vs. Adobe at 6.7x."
+
+---
+
+### 💡 Closing Thoughts / Final Recommendations
+1. **Amazon**: "Stock at 50-day MA after 7% drop. Accumulation opportunity if AWS capex acceleration holds."
+2. **Apple**: "China rebound real (4% growth). Downside limited."
+3. **Figma Short**: High valuation disconnect ("$60B for $1B revenue").
+4. **Avoid**: Tesla (weak earnings), ASML (short-term semiconductor pressure).
+
+**Quote**: *"AWS is still in early innings of AI — $123B run rate business, and it’s getting bigger."* — Andy Jassy.

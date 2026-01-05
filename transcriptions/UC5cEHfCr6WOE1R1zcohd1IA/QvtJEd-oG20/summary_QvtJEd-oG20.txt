@@ -1,0 +1,73 @@
+
+### 🎯 Video Objective
+To discuss recent stock market movements, analyze key tech developments (including the Figma IPO filing), and evaluate investment opportunities in AI, semiconductors, and healthcare.
+
+---
+
+### 📌 Key Takeaways
+1. **Tech Pullback**: Yesterday’s market saw tech underperform (NVDA, META, TESLA down ~3-4%) while value stocks (UNH, INTC, PYPL) rose. A healthy breather after a multi-month rally.
+2. **Figma IPO**: Revenue up **49% YoY**, 95% of F500 customers, **132% NRR**, and **91% gross margins**. Adobe’s failed $20B acquisition shows its strategic value but faces valuation concerns.
+3. **Tesla**: Missed Q2 EV deliveries by **0.8k units**, but stock surged **6%** on upside surprise in production and energy storage ( Ljump in Model Y refresh impact).
+4. **Oscar Health**: Down **15%** pre-market due to peers’ guidance cuts, but bullish on its preparation for Medicaid/ACA risks and technical signals.
+5. **Semiconductors**: Full supply chain exposure (NVDA, AMD, TSM, ASML) is viable but cyclical. Start with ETFs (SMH, SMHX) and cherry-pick individual stocks later.
+6. **Macro Outlook**: Fed hints at rate cuts if tariff impacts ease. Tariff deadline (July 9 for Europe) could cause volatility for European-focused stocks.
+7. **AI Agents**: Figma and GitLab position as industry-standard tools for collaboration (UI/UX and devops), with AI adding future growth potential.
+
+---
+
+### 📊 Companies Mentioned
+
+#### **Figma (FGMA)**
+- **Role**: UI/UX design platform for app/website development.
+- **Investment Case**:
+  - **Bull**: High growth (~50%), strong NRR, enterprise adoption. Adobe’s $20B offer implies valuation upside.
+  - **Bear**: 25x+ revenue multiple is stretchy; AI could disrupt design automation.
+
+#### **GitLab (GTLB)**
+- **Role**: DevSecOps platform for software development.
+- **Investment Case**:
+  - **Bull**: Integral to engineering workflows, ~30% YoY growth.
+  - **Bear**: Operating margin still negative; faces competition (GitHub).
+
+#### **Oscar Health (OSC)**
+- **Role**: Health insurance (Medicaid/ACA focus).
+- **Investment Case**:
+  - **Bull**: Well-positioned vs. peers’ cost woes; technical signals suggest buying opportunity.
+  - **Bear**: Volatile sector, but current dip may be overdone.
+
+#### **Tesla (TSLA)**
+- **Role**: EV leader + energy storage.
+- **Investment Case**:
+  - **Bull**: Energy storage growth offsetting EV margin pressures.
+  - **Bear**: Lack of affordable model launches since 2024.
+
+#### **Adobe (ADBE)**
+- **Role**: Creative software suite.
+- **Investment Case**:
+  - **Bull**: Valuation attractive; AI moat underappreciated.
+  - **Bear**: Growth lags Figma, at risk from AI-driven design tools.
+
+---
+
+### 🚫 Companies Criticized/Deprioritized
+- **Super Micro Computer (SMCI)**: High-risk due to accounting issues and competitive margins. Prefer Dell as a safer alternative.
+- **Sentinel Group (Healthcare Peer)**: Down 32% on guidance cut, dragging Oscar Health lower (but Oscar is more resilient).
+
+---
+
+### 🧠 Expert Commentary
+- **"Invest and investigate":** Start small positions to trigger research, not guesswork.
+- **AI OS Framework**: "Figma and GitLab are the foundations for AI agents" — future collaboration tools for AI-driven workflows.
+- **Tariff Impact**: Fed’s rate-cut stance hinges on tariff data, likely in July/September.
+
+---
+
+### 💡 Closing Thoughts / Final Recommendations
+- **Top Picks**: Figma (if IPO valuation is sane), GitLab, and Oscar Health (short-term speculative entry).
+- **Avoid**: SMCI until accounting concerns clear.
+- **Themes**: AI collaboration platforms (Figma, GitLab), semiconductor supply chain, and healthcare disruption.
+- **Macro**: Tech correction is healthy; stay vigilant on tariff/timing data.
+
+*"The market loves to give opportunities—just be patient and disciplined."*
+
+---

@@ -1,0 +1,1 @@
+["GOOGL", "INTC", "SK HYNIX", "AMD", "PYPL", "MU", "IBM", "ADCT", "TSLA", "OCSR"]

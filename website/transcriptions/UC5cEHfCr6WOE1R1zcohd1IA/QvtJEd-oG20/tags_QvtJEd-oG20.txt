@@ -1,0 +1,1 @@
+["NVDA", "META", "TESLA", "UNH", "INTC", "PYPL", "AMD", "TSM", "ASML", "SMH", "SMHX", "FGMA", "GTLB", "OSC", "TSLA", "ADBE", "SMCI"]
